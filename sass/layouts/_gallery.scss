@@ -1,0 +1,25 @@
+.gallery__list
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.gallery__item
+{
+    /* width: calc((100% - 90px) / 4); */
+    width: 100%;
+  
+    @media screen and (min-width: 768px)
+    {
+        width: calc((100% - 30px) / 2);
+    }
+    @media screen and (min-width: 1200px)
+    {
+        width: calc((100% - 90px) / 4);
+    }
+}
+.gallery__pre-title
+{
+    margin-bottom: 44px;
+    color: #303030;
+}

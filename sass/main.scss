@@ -1,29 +1,26 @@
-@import './utils/_variables';
-@import './utils/_placeholders';
-@import './utils/_mixins';
-@import './utils/_hidden';
+@import './utils/vars';
 
-@import './base/_common';
-@import './base/_reset';
+@import './base/reset';
+@import './utils/placeholders';
+@import './utils/mixins';
+@import './base/common';
+@import './utils/hidden';
 
-@import './components/_btn';
-@import './components/_title';
-@import './components/_pre-title';
-@import './components/_section';
-@import './components/_container';
-@import './components/_contact-wrap';
+@import './components/container';
+@import './components/title';
+@import './components/pre-title';
+@import './components/btn';
+@import './components/modal';
 
-@import './layouts/_header';
-@import './layouts/_hero';
-@import './layouts/_about';
-@import './layouts/_prices';
-@import './layouts/_benefits';
-@import './layouts/_barbers';
-@import './layouts/_group';
-@import './layouts/_gallery';
-@import './layouts/_online';
-@import './layouts/_contacts';
-@import './layouts/_footer';
-
-@import './modal/_menu';
-@import './modal/_modal';
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/about';
+@import './layouts/prices';
+@import './layouts/benefits';
+@import './layouts/barbers';
+@import './layouts/test';
+@import './layouts/gallery';
+@import './layouts/contact-wrap';
+@import './layouts/online';
+@import './layouts/contacts';
+@import './layouts/footer';

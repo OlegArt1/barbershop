@@ -1,0 +1,52 @@
+.contacts
+{
+    padding-left: 100px;
+    width: calc(50% - 15px);
+}
+.contacts__title
+{
+    margin-bottom: 40px;
+    color: var(--main-title-color);
+}
+.contacts__address
+{
+    margin-bottom: 70px;
+}
+.contacts__map-link
+{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    color: #9da4bd; 
+}
+    .contacts__item:not(:last-child)
+    {
+        margin-bottom: 20px;
+    }
+.contacts__link
+{
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #9da4bd;
+}
+.contacts__subtitle
+{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+ /* identical to box height */
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.contacts__schedule
+{
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #9da4bd;
+}

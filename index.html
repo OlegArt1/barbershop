@@ -2,10 +2,10 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8"/>
-        <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
               integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
@@ -13,22 +13,22 @@
         <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link rel="stylesheet" href="./css/main.min.css"/>
-        <title>&#128136;&nbsp;Barbershop</title>
+        <!--<link rel="stylesheet" href="./css/styles.css"/>-->
+        <title>&#128136;Barbershop</title>
     </head>
-    <!----------BODY---------->
     <body class="site-body">
-        <!----------HEADER---------->
+        <!---------------HEADER--------------->
         <header class="header">
             <div class="header__container container">
                 <nav class="header__navigation">
-                    <a class="header__navigation-logo logo" href="#logotype">
+                    <a href="" class="header__navigation-logo logo">
                         <svg class="header__logo-icon" width="69" height="55">
-                            <use href="./icons/icons.svg#icon-logo"/>
+                            <use href="./img/icons.svg#icon-logo"></use>
                         </svg>
                     </a>
                     <ul class="menu list">
                         <li class="menu__item">
-                            <a class="menu__link link current" href="#about">About</a>
+                            <a class="menu__link link current" href="https://www.google.com/">About</a>
                         </li>
                         <li class="menu__item">
                             <a class="menu__link link" href="#prices">Services and prices</a>
@@ -37,24 +37,24 @@
                             <a class="menu__link link" href="#barbers">Barbers</a>
                         </li>
                         <li class="menu__item">
-                            <a class="menu__link link" href="#contacts">Contacts</a>
+                            <a class="menu__link link" href="https://www.google.com/">Contacts</a>
                         </li>
                     </ul>
                 </nav>
                 <div class="header__connect connect">
-                    <a class="header__connect-telephone link" href="tel:+380441111111">+38 044 111 11 11</a>
-                    <button class="header__connect-button btn btn--color-light" type="button" data-modal-open>Online-booking</button>
+                    <a class="header__connect-tel link" href="tel:+380441111111">+38 044 111 11 11</a>
+                    <button class="header__connect-btn btn btn--color-light" type="button" data-modal-open>Online-booking</button>
                 </div>
-                <button type="button" class="menu-open" data-menu-open>O</button>
+                <button class="menu-open" type="button" data-menu-open>O</button>
             </div>
-            <!----------MENU---------->
+            <!----------Mob_Menu---------->
             <div class="mob-menu is-hidden" data-menu>
                 <div class="container">
                     <div class="mob-menu-top">
-                        <button type="button" class="menu-close" data-menu-close>X</button>
+                        <button class="menu-close" type="button" data-menu-close>X</button>
                         <ul class="mob-menu-list list">
                             <li class="mob-menu-list__item">
-                                <a class="mob-menu-list__link link current" href="#about">About</a>
+                                <a class="mob-menu-list__link link current" href="https://www.google.com/">About</a>
                             </li>
                             <li class="mob-menu-list__item">
                                 <a class="mob-menu-list__link link" href="#prices">Services and prices</a>
@@ -63,7 +63,7 @@
                                 <a class="mob-menu-list__link link" href="#barbers">Barbers</a>
                             </li>
                             <li class="mob-menu-list__item">
-                                <a class="mob-menu-list__link link" href="#contacts">Contacts</a>
+                                <a class="mob-menu-list__link link" href="https://www.google.com/">Contacts</a>
                             </li>
                         </ul>
                     </div>
@@ -71,38 +71,40 @@
                         <div class="mob-connect">
                             <a class="mob-connect__tel link" href="tel:+380441111111">+38 044 111 11 11</a>
                             <button class="mob-connect__btn btn btn--color-dark" type="button" data-modal-open>Online-booking</button>
-                        </div>    
+                        </div>
                         <ul class="mob-soc list">
                             <li class="mob-soc__item">
-                                <a class="mob-soc__link link" target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/">Instagram</a>
+                                <a class="mob-soc__link link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer nofollow">Instagram</a>
                             </li>
                             <li class="mob-soc__item">
-                                <a class="mob-soc__link link" target="_blank" rel="noopener noreferrer nofollow" href="https://www.youtube.com/">Youtube</a>
+                                <a class="mob-soc__link link" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer nofollow">Youtube</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <!----- ----->
+            <!---------- ---------->
         </header>
-        <!----- ----->
-        <!----------MAIN---------->
-        <main class="main">
-            <!----------HERO---------->
-            <section class="hero section">
+        <!--------------- --------------->
+        <!---------------MAIN--------------->
+        <main>
+            <!---------------HERO--------------->
+            <section class="hero">
                 <div class="hero__container container">
                     <div class="hero__social-block">
                         <ul class="hero__social-list list">
                             <li class="hero__social-item">
-                                <a class="hero__social-link link" target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/">Instagram</a>
+                                <a class="hero__social-link link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer nofollow">Instagram</a>
                             </li>
                             <li class="hero__social-item">
-                                <a class="hero__social-link link" target="_blank" rel="noopener noreferrer nofollow" href="https://www.youtube.com/">Youtube</a>
+                                <a class="hero__social-link link" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer nofollow">Youtube</a>
                             </li>
                         </ul>
                     </div>
                     <div class="hero__wrap">
-                        <p class="hero__pre-title pre-title">A hair salon for men in Kyiv</p>
+                        <p class="hero__pre-title pre-title">
+                            A hair salon for men in Kyiv
+                        </p>
                         <h1 class="hero__title animate__animated animate__wobble">BarberShop</h1>
                         <p class="hero__after-title">
                             We are experts in trendy men’s haircuts. We work quickly, carefully and with style.
@@ -110,16 +112,20 @@
                     </div>
                 </div>
             </section>
-            <!----- ----->
-            <!----------ABOUT---------->
+            <!--------------- --------------->
+            <!---------------ABOUT--------------->
             <section class="about section">
                 <div class="about__container container">
-                    <ul class="about__picter-list list">
-                        <li class="about__picter-item">
-                            <img class="about__picter-image" src="./images/about-image-1.jpeg" width="270" height="445" alt="haircut"/>
+                    <ul class="about__pic-list list">
+                        <li class="pic-list__item">
+                            <a class="about__link" href="./img/abot-img-1.jpeg">
+                                <img class="about__image" src="./img/abot-img-1.jpeg" width="270" height="445" alt="haircut"/>
+                            </a>
                         </li>
-                        <li class="about__picter-item">
-                            <img class="about__picter-image" src="./images/about-image-2.jpeg" width="270" height="445" alt="haircut"/>
+                        <li class="pic-list__item">
+                            <a class="about__link" href="./img/abot-img-2.jpeg">
+                                <img class="about__image" src="./img/abot-img-2.jpeg" width="270" height="445" alt="haircut"/>
+                            </a>
                         </li>
                     </ul>
                     <div class="about__wrap">
@@ -129,17 +135,19 @@
                             If you want to add more confidence to your image, you should definitely visit us.
                         </p>
                         <p class="about__text">
-                            We are a team that never stops at what has been achieved and are thirsty for changes. And when you fall into 
-                            the hands of our master, you will never be the same again. We are a team that is always "on the same wave" with 
-                            clients. Therefore, we are always ready to improve everyone who comes to us!
+                            We are a team that never stops at what has been achieved and are
+                            thirsty for changes. And when you fall into the hands of our
+                            master, you will never be the same again. We are a team that is
+                            always "on the same wave" with clients. Therefore, we are always
+                            ready to improve everyone who comes to us!
                         </p>
-                        <button class="btn--color-dark btn" type="button">Online-booking</button>
+                        <button class="btn btn--color-dark" type="button" data-modal-open>Online-booking</button>
                     </div>
                 </div>
             </section>
-            <!----- ----->
-            <!----------PRICES---------->
-            <section class="prices section">
+            <!--------------- --------------->
+            <!---------------PRICES--------------->
+            <section class="prices section" id="prices">
                 <div class="prices__container container">
                     <p class="prices__pre-title pre-title">Spend your time with the best masters</p>
                     <h2 class="prices__title section-title" data-aos="flip-left">Services and prices</h2>
@@ -168,7 +176,7 @@
                                 <p class="prices__list-text">from 50 uah.</p>
                             </li>
                             <li class="prices__item">
-                                <p class="prices__list-text">Haircut under the nozzle</p>        
+                                <p class="prices__list-text">Haircut under the nozzle</p>
                                 <p class="prices__list-text">from 200 uah.</p>
                             </li>
                             <li class="prices__item">
@@ -181,28 +189,28 @@
                             </li>
                         </ul>
                     </div>
-                    <button class="prices__button btn" type="button">Online-booking</button>
+                    <button class="prices__btn btn" type="button">Online-booking</button>
                 </div>
             </section>
-            <!----- ----->
-            <!----------BENEFITS---------->
+            <!--------------- --------------->
+            <!---------------BENEFITS--------------->
             <section class="benefits section">
                 <div class="benefits__container container">
                     <ul class="benefits__list list">
                         <li class="benefits__item">
-                            <span class="benefits__item-number">600</span>
+                            <span>600</span>
                             <p class="benefits__item-text">Satisfied customers per day</p>
                         </li>
                         <li class="benefits__item">
-                            <span class="benefits__item-number">50</span>
+                            <span>50</span>
                             <p class="benefits__item-text">Awards for excellent service</p>
                         </li>
                         <li class="benefits__item">
-                            <span class="benefits__item-number">20</span>
+                            <span>20</span>
                             <p class="benefits__item-text">Kyiv’s best barbers</p>
                         </li>
                         <li class="benefits__item">
-                            <span class="benefits__item-number">100</span>
+                            <span>100</span>
                             <p class="benefits__item-text">Gifts for regular customers</p>
                         </li>
                     </ul>
@@ -211,401 +219,359 @@
                         <h2 class="benefits__title section-title" data-aos="zoom-in-down">Why people come to us?</h2>
                         <p class="benefits__after-title">
                             Only good things are said about us. But it's better to see and feel 1 time than read 10 times.
-                        </p>        
+                        </p>
                     </div>
                 </div>
             </section>
-            <!----- ----->
-            <!----------BARBERS---------->
-            <section class="barbers section">
+            <!--------------- --------------->
+            <!---------------BARBERS--------------->
+            <section class="barbers section" id="barbers">
                 <div class="barbers__container container">
                     <p class="barbers__pre-title pre-title">For true enjoyers of the atmosphere</p>
                     <h2 class="barbers__title section-title">Our barbers</h2>
                     <ul class="barbers__list list">
                         <li class="barbers__item">
-                            <article class="barbers__article-block">
-                                <a class="barbers__link link" href="./images/barber-image-1.jpeg">
-                                    <div class="barbers__top-wrap">
-                                        <img class="barbers__image" src="./images/barber-image-1.jpeg" width="370" height="346" alt="haircut"/>
-                                        <p class="barbers__top-text">
-                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi impedit vitae sunt eaque. Vel possimus autem ipsam ipsa?
-                                            Facere quo eius possimus ipsum corporis consectetur asperiores amet ipsa voluptatum voluptatem. Lorem, ipsum dolor sit amet                    
-                                        </p>
-                                    </div>
-                                    <div class="barbers__wrap">
-                                        <h3 class="barbers__item-title">John Smith</h3>
-                                        <p class="barbers__item-text">Extreme Barber</p>
-                                        <ul class="barbers__social-list list">
-                                            <li class="barbers__social-item">
-                                                <a class="barbers__social-link link" aria-label="Instagram" href="https://www.instagram.com/">
-                                                    <svg class="barbers__social-icon" width="32" height="32">
-                                                        <path d="M16 2.881c4.275 0 4.781 0.019 6.462 0.094 1.563 0.069 2.406 0.331 2.969 0.55 0.744 0.288 1.281 0.638 1.837 1.194 0.563 0.563 0.906 1.094 1.2 1.838 0.219 0.563 0.481 1.412 0.55 2.969 0.075 1.688 0.094 2.194 0.094 6.463s-0.019 4.781-0.094 6.463c-0.069 1.563-0.331 2.406-0.55 2.969-0.288 0.744-0.637 1.281-1.194 1.837-0.563 0.563-1.094 0.906-1.837 1.2-0.563 0.219-1.413 0.481-2.969 0.55-1.688 0.075-2.194 0.094-6.463 0.094s-4.781-0.019-6.463-0.094c-1.563-0.069-2.406-0.331-2.969-0.55-0.744-0.288-1.281-0.637-1.838-1.194-0.563-0.563-0.906-1.094-1.2-1.837-0.219-0.563-0.481-1.413-0.55-2.969-0.075-1.688-0.094-2.194-0.094-6.463s0.019-4.781 0.094-6.463c0.069-1.563 0.331-2.406 0.55-2.969 0.288-0.744 0.638-1.281 1.194-1.838 0.563-0.563 1.094-0.906 1.838-1.2 0.563-0.219 1.412-0.481 2.969-0.55 1.681-0.075 2.188-0.094 6.463-0.094zM16 0c-4.344 0-4.887 0.019-6.594 0.094-1.7 0.075-2.869 0.35-3.881 0.744-1.056 0.412-1.95 0.956-2.837 1.85-0.894 0.888-1.438 1.781-1.85 2.831-0.394 1.019-0.669 2.181-0.744 3.881-0.075 1.713-0.094 2.256-0.094 6.6s0.019 4.887 0.094 6.594c0.075 1.7 0.35 2.869 0.744 3.881 0.413 1.056 0.956 1.95 1.85 2.837 0.887 0.887 1.781 1.438 2.831 1.844 1.019 0.394 2.181 0.669 3.881 0.744 1.706 0.075 2.25 0.094 6.594 0.094s4.888-0.019 6.594-0.094c1.7-0.075 2.869-0.35 3.881-0.744 1.050-0.406 1.944-0.956 2.831-1.844s1.438-1.781 1.844-2.831c0.394-1.019 0.669-2.181 0.744-3.881 0.075-1.706 0.094-2.25 0.094-6.594s-0.019-4.887-0.094-6.594c-0.075-1.7-0.35-2.869-0.744-3.881-0.394-1.063-0.938-1.956-1.831-2.844-0.887-0.887-1.781-1.438-2.831-1.844-1.019-0.394-2.181-0.669-3.881-0.744-1.712-0.081-2.256-0.1-6.6-0.1v0z"></path>
-                                                        <path d="M16 7.781c-4.537 0-8.219 3.681-8.219 8.219s3.681 8.219 8.219 8.219 8.219-3.681 8.219-8.219c0-4.537-3.681-8.219-8.219-8.219zM16 21.331c-2.944 0-5.331-2.387-5.331-5.331s2.387-5.331 5.331-5.331c2.944 0 5.331 2.387 5.331 5.331s-2.387 5.331-5.331 5.331z"></path>
-                                                        <path d="M26.462 7.456c0 1.060-0.859 1.919-1.919 1.919s-1.919-0.859-1.919-1.919c0-1.060 0.859-1.919 1.919-1.919s1.919 0.859 1.919 1.919z"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                            <li class="barbers__social-item">
-                                                <a class="barbers__social-link link" aria-label="Twitter" href="https://twitter.com/?lang=ru">
-                                                    <svg class="barbers__social-icon" width="32" height="32">
-                                                        <path d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>    
-                                            <li class="barbers__social-item">
-                                                <a class="barbers__social-link link" aria-label="Facebook" 
-                                                   href="https://www.facebook.com/campaign/landing.php?campaign_id=1600506847&extra_1=s%7Cc%7C303881997266%7Ce%7Cfacebook%7C&placement=&creative=303881997266&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1600506847%26adgroupid%3D60825662376%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D1012839%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwwL6aBhBlEiwADycBICotkZHlRbnSPUmYZN62zM36Wnwne-l1e7FqqiIt21ape6sLFZjKeRoCyfIQAvD_BwE">
-                                                    <svg class="barbers__social-icon" width="28" height="28"> 
-                                                        <path d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                            <li class="barbers__social-item">
-                                                <a class="barbers__social-link link" aria-label="Linkedin" href="https://ua.linkedin.com/">
-                                                    <svg class="barbers__social-icon" width="32" height="32">
-                                                        <path d="M12 12h5.535v2.837h0.079c0.77-1.381 2.655-2.837 5.464-2.837 5.842 0 6.922 3.637 6.922 8.367v9.633h-5.769v-8.54c0-2.037-0.042-4.657-3.001-4.657-3.005 0-3.463 2.218-3.463 4.509v8.688h-5.767v-18z"></path>
-                                                        <path d="M2 12h6v18h-6v-18z"></path>
-                                                        <path d="M8 7c0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.657 1.343-3 3-3s3 1.343 3 3z"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                            <div class="barbers__top-wrap">
+                                <a class="barbers__link" href="./img/barbers-img-1.jpeg">
+                                    <img src="./img/barbers-img-1.jpeg" width="370" height="346" alt="haircut"/>
+                                    <p class="barbers__top-text">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi
+                                        impedit vitae sunt eaque. Vel possimus autem ipsam ipsa?
+                                        Facere quo eius possimus ipsum corporis consectetur asperiores
+                                        amet ipsa voluptatum voluptatem. Lorem, ipsum dolor sit amet
+                                    </p>
                                 </a>
-                            </article>
+                            </div>
+                            <div class="barbers__wrap">
+                                <h3 class="barbers__item-title">John Smith</h3>
+                                <p class="barbers__item-text">Extreme Barber</p>
+                                <ul class="barbers__social-list list">
+                                    <li class="barbers__social-item">
+                                        <a class="barbers__social-link link" href="https://www.instagram.com/" aria-label="instagram">
+                                            <svg class="barbers__social-icon" width="20" height="20">
+                                                <use href="./img/icons.svg#icon-instagram"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="barbers__social-item">
+                                        <a class="barbers__social-link link" href="https://twitter.com/?lang=ru">
+                                            <svg class="barbers__social-icon" width="20" height="20">
+                                                <use href="./img/icons.svg#icon-twitter"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="barbers__social-item">
+                                        <a class="barbers__social-link link" href="https://www.facebook.com/campaign/landing.php?campaign_id=1600506847&extra_1=s%7Cc%7C303881997266%7Ce%7Cfacebook%7C&placement=&creative=303881997266&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1600506847%26adgroupid%3D60825662376%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D1012839%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwwL6aBhBlEiwADycBICotkZHlRbnSPUmYZN62zM36Wnwne-l1e7FqqiIt21ape6sLFZjKeRoCyfIQAvD_BwE">
+                                            <svg class="barbers__social-icon" width="20" height="20">
+                                                <use href="./img/icons.svg#icon-facebook"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="barbers__social-item">
+                                        <a class="barbers__social-link link" href="https://ua.linkedin.com/">
+                                            <svg class="barbers__social-icon" width="20" height="20">
+                                                <use href="./img/icons.svg#icon-linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>   
+                        <li class="barbers__item">
+                            <div class="barbers__top-wrap">
+                                <a class="barbers__link" href="./img/barbers-img-2.jpeg">
+                                    <img src="./img/barbers-img-2.jpeg" width="370" height="346" alt="haircut"/>
+                                    <p class="barbers__top-text">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi
+                                        impedit vitae sunt eaque. Vel possimus autem ipsam ipsa?
+                                        Facere quo eius possimus ipsum corporis consectetur asperiores
+                                        amet ipsa voluptatum voluptatem. Lorem, ipsum dolor sit amet
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="barbers__wrap">
+                                <h3 class="barbers__item-title">Michele Doe</h3>
+                                <p class="barbers__item-text">Extreme Barber</p>
+                                <ul class="barbers__social-list list">
+                                    <li class="barbers__social-item">
+                                        <a class="barbers__social-link link" href="https://www.instagram.com/" aria-label="instagram">
+                                            <svg class="barbers__social-icon" width="20" height="20">
+                                                <use href="./img/icons.svg#icon-instagram"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="barbers__social-item">
+                                        <a class="barbers__social-link link" href="https://twitter.com/?lang=ru">
+                                            <svg class="barbers__social-icon" width="20" height="20">
+                                                <use href="./img/icons.svg#icon-twitter"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="barbers__social-item">
+                                        <a class="barbers__social-link link" href="https://www.facebook.com/campaign/landing.php?campaign_id=1600506847&extra_1=s%7Cc%7C303881997266%7Ce%7Cfacebook%7C&placement=&creative=303881997266&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1600506847%26adgroupid%3D60825662376%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D1012839%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwwL6aBhBlEiwADycBICotkZHlRbnSPUmYZN62zM36Wnwne-l1e7FqqiIt21ape6sLFZjKeRoCyfIQAvD_BwE">
+                                            <svg class="barbers__social-icon" width="20" height="20">
+                                                <use href="./img/icons.svg#icon-facebook"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="barbers__social-item">
+                                        <a class="barbers__social-link link" href="https://ua.linkedin.com/">
+                                            <svg class="barbers__social-icon" width="20" height="20">
+                                                <use href="./img/icons.svg#icon-linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </li>
                         <li class="barbers__item">
-                            <article class="barbers__article-block">
-                                <a class="barbers__link link" href="./images/barber-image-2.jpeg">
-                                    <div class="barbers__top-wrap">
-                                        <img class="barbers__image" src="./images/barber-image-2.jpeg" width="370" height="346" alt="haircut"/>
-                                        <p class="barbers__top-text">
-                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi impedit vitae sunt eaque. Vel possimus autem ipsam ipsa?
-                                            Facere quo eius possimus ipsum corporis consectetur asperiores amet ipsa voluptatum voluptatem. Lorem, ipsum dolor sit amet
-                                        </p>
-                                    </div>
-                                    <div class="barbers__wrap">
-                                        <h3 class="barbers__item-title">Michele Doe</h3>
-                                        <p class="barbers__item-text">Extreme Barber</p>
-                                        <ul class="barbers__social-list list">
-                                            <li class="barbers__social-item">
-                                                <a class="barbers__social-link link" aria-label="Instagram" href="https://www.instagram.com/">
-                                                    <svg class="barbers__social-icon" width="32" height="32">
-                                                        <path d="M16 2.881c4.275 0 4.781 0.019 6.462 0.094 1.563 0.069 2.406 0.331 2.969 0.55 0.744 0.288 1.281 0.638 1.837 1.194 0.563 0.563 0.906 1.094 1.2 1.838 0.219 0.563 0.481 1.412 0.55 2.969 0.075 1.688 0.094 2.194 0.094 6.463s-0.019 4.781-0.094 6.463c-0.069 1.563-0.331 2.406-0.55 2.969-0.288 0.744-0.637 1.281-1.194 1.837-0.563 0.563-1.094 0.906-1.837 1.2-0.563 0.219-1.413 0.481-2.969 0.55-1.688 0.075-2.194 0.094-6.463 0.094s-4.781-0.019-6.463-0.094c-1.563-0.069-2.406-0.331-2.969-0.55-0.744-0.288-1.281-0.637-1.838-1.194-0.563-0.563-0.906-1.094-1.2-1.837-0.219-0.563-0.481-1.413-0.55-2.969-0.075-1.688-0.094-2.194-0.094-6.463s0.019-4.781 0.094-6.463c0.069-1.563 0.331-2.406 0.55-2.969 0.288-0.744 0.638-1.281 1.194-1.838 0.563-0.563 1.094-0.906 1.838-1.2 0.563-0.219 1.412-0.481 2.969-0.55 1.681-0.075 2.188-0.094 6.463-0.094zM16 0c-4.344 0-4.887 0.019-6.594 0.094-1.7 0.075-2.869 0.35-3.881 0.744-1.056 0.412-1.95 0.956-2.837 1.85-0.894 0.888-1.438 1.781-1.85 2.831-0.394 1.019-0.669 2.181-0.744 3.881-0.075 1.713-0.094 2.256-0.094 6.6s0.019 4.887 0.094 6.594c0.075 1.7 0.35 2.869 0.744 3.881 0.413 1.056 0.956 1.95 1.85 2.837 0.887 0.887 1.781 1.438 2.831 1.844 1.019 0.394 2.181 0.669 3.881 0.744 1.706 0.075 2.25 0.094 6.594 0.094s4.888-0.019 6.594-0.094c1.7-0.075 2.869-0.35 3.881-0.744 1.050-0.406 1.944-0.956 2.831-1.844s1.438-1.781 1.844-2.831c0.394-1.019 0.669-2.181 0.744-3.881 0.075-1.706 0.094-2.25 0.094-6.594s-0.019-4.887-0.094-6.594c-0.075-1.7-0.35-2.869-0.744-3.881-0.394-1.063-0.938-1.956-1.831-2.844-0.887-0.887-1.781-1.438-2.831-1.844-1.019-0.394-2.181-0.669-3.881-0.744-1.712-0.081-2.256-0.1-6.6-0.1v0z"></path>
-                                                        <path d="M16 7.781c-4.537 0-8.219 3.681-8.219 8.219s3.681 8.219 8.219 8.219 8.219-3.681 8.219-8.219c0-4.537-3.681-8.219-8.219-8.219zM16 21.331c-2.944 0-5.331-2.387-5.331-5.331s2.387-5.331 5.331-5.331c2.944 0 5.331 2.387 5.331 5.331s-2.387 5.331-5.331 5.331z"></path>
-                                                        <path d="M26.462 7.456c0 1.060-0.859 1.919-1.919 1.919s-1.919-0.859-1.919-1.919c0-1.060 0.859-1.919 1.919-1.919s1.919 0.859 1.919 1.919z"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                            <li class="barbers__social-item">
-                                                <a class="barbers__social-link link" aria-label="Twitter" href="https://twitter.com/?lang=ru/">
-                                                    <svg class="barbers__social-icon" width="32" height="32">
-                                                        <path d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                            <li class="barbers__social-item">
-                                                <a class="barbers__social-link link" aria-label="Facebook" 
-                                                   href="https://www.facebook.com/campaign/landing.php?campaign_id=1600506847&extra_1=s%7Cc%7C303881997266%7Ce%7Cfacebook%7C&placement=&creative=303881997266&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1600506847%26adgroupid%3D60825662376%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D1012839%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwwL6aBhBlEiwADycBICotkZHlRbnSPUmYZN62zM36Wnwne-l1e7FqqiIt21ape6sLFZjKeRoCyfIQAvD_BwE">
-                                                    <svg class="barbers__social-icon" width="28" height="28"> 
-                                                        <path d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                            <li class="barbers__social-item">
-                                                <a class="barbers__social-link link" aria-label="Linkedin" href="https://ua.linkedin.com/">
-                                                    <svg class="barbers__social-icon" width="32" height="32">
-                                                        <path d="M12 12h5.535v2.837h0.079c0.77-1.381 2.655-2.837 5.464-2.837 5.842 0 6.922 3.637 6.922 8.367v9.633h-5.769v-8.54c0-2.037-0.042-4.657-3.001-4.657-3.005 0-3.463 2.218-3.463 4.509v8.688h-5.767v-18z"></path>
-                                                        <path d="M2 12h6v18h-6v-18z"></path>
-                                                        <path d="M8 7c0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.657 1.343-3 3-3s3 1.343 3 3z"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>    
-                                        </ul>
-                                    </div>
+                            <div class="barbers__top-wrap">
+                                <a class="barbers__link" href="./img/barbers-img-3.jpeg">
+                                    <img src="./img/barbers-img-3.jpeg" width="370" height="346" alt="haircut"/>
+                                    <p class="barbers__top-text">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi
+                                        impedit vitae sunt eaque. Vel possimus autem ipsam ipsa?
+                                        Facere quo eius possimus ipsum corporis consectetur asperiores
+                                        amet ipsa voluptatum voluptatem. Lorem, ipsum dolor sit amet
+                                    </p>
                                 </a>
-                            </article>
-                        </li>
-                        <li class="barbers__item">
-                            <article class="barbers__article-block">
-                                <a class="barbers__link link" href="./images/barber-image-3.jpeg">
-                                    <div class="barbers__top-wrap">
-                                        <img class="barbers__image" src="./images/barber-image-3.jpeg" width="370" height="346" alt="haircut"/>
-                                        <p class="barbers__top-text">
-                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi impedit vitae sunt eaque. Vel possimus autem ipsam ipsa?
-                                            Facere quo eius possimus ipsum corporis consectetur asperiores amet ipsa voluptatum voluptatem. Lorem, ipsum dolor sit amet
-                                        </p>
-                                    </div>
-                                    <div class="barbers__wrap">
-                                        <h3 class="barbers__item-title">Alan Black</h3>
-                                        <p class="barbers__item-text">Extreme Barber</p>
-                                        <ul class="barbers__social-list list">
-                                            <li class="barbers__social-item">
-                                                <a class="barbers__social-link link" aria-label="Instagram" href="https://www.instagram.com/">
-                                                    <svg class="barbers__social-icon" width="32" height="32">
-                                                        <path d="M16 2.881c4.275 0 4.781 0.019 6.462 0.094 1.563 0.069 2.406 0.331 2.969 0.55 0.744 0.288 1.281 0.638 1.837 1.194 0.563 0.563 0.906 1.094 1.2 1.838 0.219 0.563 0.481 1.412 0.55 2.969 0.075 1.688 0.094 2.194 0.094 6.463s-0.019 4.781-0.094 6.463c-0.069 1.563-0.331 2.406-0.55 2.969-0.288 0.744-0.637 1.281-1.194 1.837-0.563 0.563-1.094 0.906-1.837 1.2-0.563 0.219-1.413 0.481-2.969 0.55-1.688 0.075-2.194 0.094-6.463 0.094s-4.781-0.019-6.463-0.094c-1.563-0.069-2.406-0.331-2.969-0.55-0.744-0.288-1.281-0.637-1.838-1.194-0.563-0.563-0.906-1.094-1.2-1.837-0.219-0.563-0.481-1.413-0.55-2.969-0.075-1.688-0.094-2.194-0.094-6.463s0.019-4.781 0.094-6.463c0.069-1.563 0.331-2.406 0.55-2.969 0.288-0.744 0.638-1.281 1.194-1.838 0.563-0.563 1.094-0.906 1.838-1.2 0.563-0.219 1.412-0.481 2.969-0.55 1.681-0.075 2.188-0.094 6.463-0.094zM16 0c-4.344 0-4.887 0.019-6.594 0.094-1.7 0.075-2.869 0.35-3.881 0.744-1.056 0.412-1.95 0.956-2.837 1.85-0.894 0.888-1.438 1.781-1.85 2.831-0.394 1.019-0.669 2.181-0.744 3.881-0.075 1.713-0.094 2.256-0.094 6.6s0.019 4.887 0.094 6.594c0.075 1.7 0.35 2.869 0.744 3.881 0.413 1.056 0.956 1.95 1.85 2.837 0.887 0.887 1.781 1.438 2.831 1.844 1.019 0.394 2.181 0.669 3.881 0.744 1.706 0.075 2.25 0.094 6.594 0.094s4.888-0.019 6.594-0.094c1.7-0.075 2.869-0.35 3.881-0.744 1.050-0.406 1.944-0.956 2.831-1.844s1.438-1.781 1.844-2.831c0.394-1.019 0.669-2.181 0.744-3.881 0.075-1.706 0.094-2.25 0.094-6.594s-0.019-4.887-0.094-6.594c-0.075-1.7-0.35-2.869-0.744-3.881-0.394-1.063-0.938-1.956-1.831-2.844-0.887-0.887-1.781-1.438-2.831-1.844-1.019-0.394-2.181-0.669-3.881-0.744-1.712-0.081-2.256-0.1-6.6-0.1v0z"></path>
-                                                        <path d="M16 7.781c-4.537 0-8.219 3.681-8.219 8.219s3.681 8.219 8.219 8.219 8.219-3.681 8.219-8.219c0-4.537-3.681-8.219-8.219-8.219zM16 21.331c-2.944 0-5.331-2.387-5.331-5.331s2.387-5.331 5.331-5.331c2.944 0 5.331 2.387 5.331 5.331s-2.387 5.331-5.331 5.331z"></path>
-                                                        <path d="M26.462 7.456c0 1.060-0.859 1.919-1.919 1.919s-1.919-0.859-1.919-1.919c0-1.060 0.859-1.919 1.919-1.919s1.919 0.859 1.919 1.919z"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                            <li class="barbers__social-item">
-                                                <a class="barbers__social-link link" aria-label="Twitter" href="https://twitter.com/?lang=ru/">
-                                                    <svg class="barbers__social-icon" width="32" height="32">
-                                                        <path d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                            <li class="barbers__social-item">
-                                                <a class="barbers__social-link link" aria-label="Facebook" 
-                                                   href="https://www.facebook.com/campaign/landing.php?campaign_id=1600506847&extra_1=s%7Cc%7C303881997266%7Ce%7Cfacebook%7C&placement=&creative=303881997266&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1600506847%26adgroupid%3D60825662376%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D1012839%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwwL6aBhBlEiwADycBICotkZHlRbnSPUmYZN62zM36Wnwne-l1e7FqqiIt21ape6sLFZjKeRoCyfIQAvD_BwE">
-                                                    <svg class="barbers__social-icon" width="28" height="28"> 
-                                                        <path d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                            <li class="barbers__social-item">
-                                                <a class="barbers__social-link link" aria-label="Linkedin" href="https://ua.linkedin.com/">
-                                                    <svg class="barbers__social-icon" width="32" height="32">
-                                                        <path d="M12 12h5.535v2.837h0.079c0.77-1.381 2.655-2.837 5.464-2.837 5.842 0 6.922 3.637 6.922 8.367v9.633h-5.769v-8.54c0-2.037-0.042-4.657-3.001-4.657-3.005 0-3.463 2.218-3.463 4.509v8.688h-5.767v-18z"></path>
-                                                        <path d="M2 12h6v18h-6v-18z"></path>
-                                                        <path d="M8 7c0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.657 1.343-3 3-3s3 1.343 3 3z"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </article>
-                        </li>
-                    </ul>
-                </div>
+                            </div>
+                            <div class="barbers__wrap">
+                                <h3 class="barbers__item-title">Alan Black</h3>
+                                <p class="barbers__item-text">Extreme Barber</p>
+                                <ul class="barbers__social-list list">
+                                    <li class="barbers__social-item">
+                                        <a class="barbers__social-link link" href="https://www.instagram.com/" aria-label="instagram">
+                                            <svg class="barbers__social-icon" width="20" height="20">
+                                                <use href="./img/icons.svg#icon-instagram"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="barbers__social-item">
+                                        <a class="barbers__social-link link" href="https://twitter.com/?lang=ru">
+                                            <svg class="barbers__social-icon" width="20" height="20">
+                                                <use href="./img/icons.svg#icon-twitter"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="barbers__social-item">
+                                        <a class="barbers__social-link link" href="https://www.facebook.com/campaign/landing.php?campaign_id=1600506847&extra_1=s%7Cc%7C303881997266%7Ce%7Cfacebook%7C&placement=&creative=303881997266&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1600506847%26adgroupid%3D60825662376%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D1012839%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwwL6aBhBlEiwADycBICotkZHlRbnSPUmYZN62zM36Wnwne-l1e7FqqiIt21ape6sLFZjKeRoCyfIQAvD_BwE">
+                                            <svg class="barbers__social-icon" width="20" height="20">
+                                                <use href="./img/icons.svg#icon-facebook"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="barbers__social-item">
+                                        <a class="barbers__social-link link" href="https://ua.linkedin.com/">
+                                            <svg class="barbers__social-icon" width="20" height="20">
+                                                <use href="./img/icons.svg#icon-linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                              </div>
+                          </li>
+                      </ul>
+                  </div>
             </section>
-            <!----- ----->
-            <!----------GROUP---------->
+            <!--------------- --------------->
+            <!---------------GROUP--------------->
             <section class="group section">
                 <div class="group__container container">
                     <ul class="group__list list">
                         <li class="group__item">
-                            <a class="group__link link" href="https://www.youtube.com/">
-                                <svg class="group__social-icon" width="32" height="32">
-                                    <path d="M30.662 5.003c-4.488-0.645-9.448-1.003-14.662-1.003s-10.174 0.358-14.662 1.003c-0.86 3.366-1.338 7.086-1.338 10.997s0.477 7.63 1.338 10.997c4.489 0.645 9.448 1.003 14.662 1.003s10.174-0.358 14.662-1.003c0.86-3.366 1.338-7.086 1.338-10.997s-0.477-7.63-1.338-10.997zM12 22v-12l10 6-10 6z"></path>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="group__item">
                             <a class="group__link link" href="https://www.instagram.com/">
-                                <svg class="barbers__social-icon" width="32" height="32">
-                                    <path d="M16 2.881c4.275 0 4.781 0.019 6.462 0.094 1.563 0.069 2.406 0.331 2.969 0.55 0.744 0.288 1.281 0.638 1.837 1.194 0.563 0.563 0.906 1.094 1.2 1.838 0.219 0.563 0.481 1.412 0.55 2.969 0.075 1.688 0.094 2.194 0.094 6.463s-0.019 4.781-0.094 6.463c-0.069 1.563-0.331 2.406-0.55 2.969-0.288 0.744-0.637 1.281-1.194 1.837-0.563 0.563-1.094 0.906-1.837 1.2-0.563 0.219-1.413 0.481-2.969 0.55-1.688 0.075-2.194 0.094-6.463 0.094s-4.781-0.019-6.463-0.094c-1.563-0.069-2.406-0.331-2.969-0.55-0.744-0.288-1.281-0.637-1.838-1.194-0.563-0.563-0.906-1.094-1.2-1.837-0.219-0.563-0.481-1.413-0.55-2.969-0.075-1.688-0.094-2.194-0.094-6.463s0.019-4.781 0.094-6.463c0.069-1.563 0.331-2.406 0.55-2.969 0.288-0.744 0.638-1.281 1.194-1.838 0.563-0.563 1.094-0.906 1.838-1.2 0.563-0.219 1.412-0.481 2.969-0.55 1.681-0.075 2.188-0.094 6.463-0.094zM16 0c-4.344 0-4.887 0.019-6.594 0.094-1.7 0.075-2.869 0.35-3.881 0.744-1.056 0.412-1.95 0.956-2.837 1.85-0.894 0.888-1.438 1.781-1.85 2.831-0.394 1.019-0.669 2.181-0.744 3.881-0.075 1.713-0.094 2.256-0.094 6.6s0.019 4.887 0.094 6.594c0.075 1.7 0.35 2.869 0.744 3.881 0.413 1.056 0.956 1.95 1.85 2.837 0.887 0.887 1.781 1.438 2.831 1.844 1.019 0.394 2.181 0.669 3.881 0.744 1.706 0.075 2.25 0.094 6.594 0.094s4.888-0.019 6.594-0.094c1.7-0.075 2.869-0.35 3.881-0.744 1.050-0.406 1.944-0.956 2.831-1.844s1.438-1.781 1.844-2.831c0.394-1.019 0.669-2.181 0.744-3.881 0.075-1.706 0.094-2.25 0.094-6.594s-0.019-4.887-0.094-6.594c-0.075-1.7-0.35-2.869-0.744-3.881-0.394-1.063-0.938-1.956-1.831-2.844-0.887-0.887-1.781-1.438-2.831-1.844-1.019-0.394-2.181-0.669-3.881-0.744-1.712-0.081-2.256-0.1-6.6-0.1v0z" fill="rgb(83, 79, 78)"></path>
-                                    <path d="M16 7.781c-4.537 0-8.219 3.681-8.219 8.219s3.681 8.219 8.219 8.219 8.219-3.681 8.219-8.219c0-4.537-3.681-8.219-8.219-8.219zM16 21.331c-2.944 0-5.331-2.387-5.331-5.331s2.387-5.331 5.331-5.331c2.944 0 5.331 2.387 5.331 5.331s-2.387 5.331-5.331 5.331z" fill="rgb(83, 79, 78)"></path>
-                                    <path d="M26.462 7.456c0 1.060-0.859 1.919-1.919 1.919s-1.919-0.859-1.919-1.919c0-1.060 0.859-1.919 1.919-1.919s1.919 0.859 1.919 1.919z" fill="rgb(83, 79, 78)"></path>
+                                <svg class="group__social-icon" width="106" height="60">
+                                    <use href="./img/icons.svg#icon-instagram"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="group__item">
-                            <a class="group__link link" href="https://twitter.com/?lang=ru/">
-                                <svg class="barbers__social-icon" width="32" height="32">
-                                    <path d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z" fill="rgb(83, 79, 78)"></path>
+                            <a class="group__link link" href="https://twitter.com/?lang=ru">
+                                <svg class="group__social-icon" width="106" height="60">
+                                    <use href="./img/icons.svg#icon-twitter"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="group__item">
                             <a class="group__link link" href="https://www.facebook.com/campaign/landing.php?campaign_id=1600506847&extra_1=s%7Cc%7C303881997266%7Ce%7Cfacebook%7C&placement=&creative=303881997266&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1600506847%26adgroupid%3D60825662376%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D1012839%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwwL6aBhBlEiwADycBICotkZHlRbnSPUmYZN62zM36Wnwne-l1e7FqqiIt21ape6sLFZjKeRoCyfIQAvD_BwE">
-                                <svg class="barbers__social-icon" width="28" height="28"> 
-                                    <path d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z" fill="rgb(83, 79, 78)"></path>
+                                <svg class="group__social-icon" width="106" height="60">
+                                    <use href="./img/icons.svg#icon-facebook"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="group__item">
                             <a class="group__link link" href="https://ua.linkedin.com/">
-                                <svg class="barbers__social-icon" width="32" height="32">
-                                    <path d="M12 12h5.535v2.837h0.079c0.77-1.381 2.655-2.837 5.464-2.837 5.842 0 6.922 3.637 6.922 8.367v9.633h-5.769v-8.54c0-2.037-0.042-4.657-3.001-4.657-3.005 0-3.463 2.218-3.463 4.509v8.688h-5.767v-18z" fill="rgb(83, 79, 78)"></path>
-                                    <path d="M2 12h6v18h-6v-18z" fill="rgb(83, 79, 78)"></path>
-                                    <path d="M8 7c0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.657 1.343-3 3-3s3 1.343 3 3z" fill="rgb(83, 79, 78)"></path>
+                                <svg class="group__social-icon" width="106" height="60">
+                                    <use href="./img/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="group__item">
+                            <a class="group__link link" href="https://www.youtube.com/">
+                                <svg class="group__social-icon" width="106" height="60">
+                                    <use href="./img/icons.svg#icon-youtube"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="group__item">
                             <a class="group__link link" href="https://www.google.com/">
-                                <svg class="group__social-icon" width="32" height="32">
-                                    <path d="M16.319 13.713v5.487h9.075c-0.369 2.356-2.744 6.9-9.075 6.9-5.463 0-9.919-4.525-9.919-10.1s4.456-10.1 9.919-10.1c3.106 0 5.188 1.325 6.375 2.469l4.344-4.181c-2.788-2.612-6.4-4.188-10.719-4.188-8.844 0-16 7.156-16 16s7.156 16 16 16c9.231 0 15.363-6.494 15.363-15.631 0-1.050-0.113-1.85-0.25-2.65l-15.113-0.006z"></path>
+                                <svg class="group__social-icon" width="106" height="60">
+                                    <use href="./img/icons.svg#icon-google"></use>
                                 </svg>
                             </a>
                         </li>
                     </ul>
                 </div>
             </section>
-            <!----- ----->
-            <!----------GALLERY---------->
+            <!--------------- --------------->
+            <!---------------GALLERY--------------->
             <section class="gallery section">
                 <div class="gallery__container container">
                     <p class="gallery__pre-title pre-title">In Latin, "barba" means "beard"</p>
-                    <h2 class="gallery__hidden visually-hidden">Gallery</h2>
+                    <h2 class="visually-hidden">Gallery</h2>
                     <ul class="gallery__list list">
                         <li class="gallery__item">
-                            <a class="gallery__link link" href="./images/hairdresser-image-1.jpeg">
-                                <!--
-                                    <picture>
-                                        <source srcset="./images/hairdresser-image-1.jpeg 1x, ./images/hairdresser-image-1-2x.jpeg 2x" media="(min-width: 1200px)"/>
-                                        <source srcset="./images/hairdresser-image-1-tab.jpeg 1x, ./images/hairdresser-image-1-tab-2x.jpeg 2x" media="(min-width: 768px)"/>
-                                        <source srcset="./images/hairdresser-image-1-mod.jpeg 1x, ./images/hairdresser-image-1-mod-2x.jpeg 2x" media="(min-width: 480px)"/>
-                                        <img class="gallery__image" src="./images/hairdresser-image-1.jpeg" width="418" height="360" alt="haircut"/>
-                                    </picture>
-                                -->
-                                <img class="gallery__image" src="./images/hairdresser-image-1.jpeg" width="270" height="360" alt="haircut" />
+                            <a class="gallery__link" href="./img/gallery-img-1.jpeg">
+                                <img class="gallery__image" src="./img/gallery-img-1.jpeg" width="418" height="360" alt="haircut"/>
                             </a>
                         </li>
                         <li class="gallery__item">
-                            <a class="gallery__link link" href="./images/hairdresser-image-2.jpeg">
-                                <!--
-                                    <picture>
-                                        <source srcset="./images/hairdresser-image-2.jpeg 1x, ./images/hairdresser-image-2-2x.jpeg 2x" media="(min-width: 1200px)"/>
-                                        <source srcset="./images/hairdresser-image-2-tab.jpeg 1x, ./images/hairdresser-image-2-tab-2x.jpeg 2x" media="(min-width: 768px)"/>
-                                        <source srcset="./images/hairdresser-image-2-mod.jpeg 1x, ./images/hairdresser-image-2-mod-2x.jpeg 2x" media="(min-width: 480px)"/>
-                                        <img class="gallery__image" src="./images/hairdresser-image-2.jpeg" width="418" height="360" alt="haircut"/>
-                                    </picture>
-                                -->
-                                <img class="gallery__image" src="./images/hairdresser-image-2.jpeg" width="270" height="360" alt="haircut" />
+                            <a class="gallery__link" href="./img/gallery-img-2.jpeg">
+                                <img class="gallery__image" src="./img/gallery-img-2.jpeg" width="418" height="360" alt="haircut"/>
                             </a>
                         </li>
                         <li class="gallery__item">
-                            <a class="gallery__link link" href="./images/hairdresser-image-3.jpeg">
-                                <!--
-                                    <picture>
-                                        <source srcset="./images/hairdresser-image-3.jpeg 1x, ./images/hairdresser-image-3-2x.jpeg 2x" media="(min-width: 1200px)"/>
-                                        <source srcset="./images/hairdresser-image-3-tab.jpeg 1x, ./images/hairdresser-image-3-tab-2x.jpeg 2x" media="(min-width: 768px)"/>
-                                        <source srcset="./images/hairdresser-image-3-mod.jpeg 1x, ./images/hairdresser-image-3-mod-2x.jpeg 2x" media="(min-width: 480px)"/>
-                                        <img class="gallery__image" src="./images/hairdresser-image-3.jpeg" width="418" height="360" alt="haircut"/>
-                                    </picture>
-                                -->
-                                <img class="gallery__image" src="./images/hairdresser-image-3.jpeg" width="270" height="360" alt="haircut" />
+                            <a class="gallery__link" href="./img/gallery-img-3.jpeg">
+                                <img class="gallery__image" src="./img/gallery-img-3.jpeg" width="418" height="360" alt="haircut"/>
                             </a>
                         </li>
                         <li class="gallery__item">
-                            <a class="gallery__link link" href="./images/hairdresser-image-4.jpeg">
-                                <!--
-                                    <picture>
-                                        <source srcset="./images/hairdresser-image-4.jpeg 1x, ./images/hairdresser-image-4-2x.jpeg 2x" media="(min-width: 1200px)"/>
-                                        <source srcset="./images/hairdresser-image-4-tab.jpeg 1x, ./images/hairdresser-image-4-tab-2x.jpeg 2x" media="(min-width: 768px)"/>
-                                        <source srcset="./images/hairdresser-image-4-mod.jpeg 1x, ./images/hairdresser-image-4-mod-2x.jpeg 2x" media="(min-width: 480px)"/>
-                                        <img class="gallery__image" src="./images/hairdresser-image-4.jpeg" width="418" height="360" alt="haircut"/>
-                                    </picture>
-                                -->
-                                <img class="gallery__image" src="./images/hairdresser-image-4.jpeg" width="270" height="360" alt="haircut" />
+                            <a class="gallery__link" href="./img/gallery-img-4.jpeg">
+                                <img class="gallery__image" src="./img/gallery-img-4.jpeg" width="418" height="360" alt="haircut"/>
                             </a>
                         </li>
                     </ul>
                 </div>
             </section>
-            <!----- ----->
-            <!----------CONTACT_WRAP---------->
+            <!--------------- --------------->
+            <!---------------CONTACTS-BLOCK---------->
             <div class="contact-wrap">
                 <div class="container">
                     <!----------ONLINE---------->
                     <section class="online section">
                         <h2 class="online__title section-title">Online-booking</h2>
                         <form class="online__form">
-                            <input class="online__input online__item" name="online-name" type="text" placeholder="Name*"/>
-                            <input class="online__input online__item" name="online-telephone" type="tel" placeholder="Phone*"/>
+                            <input class="online__input online__item" type="text" name="online-name" placeholder="Name*"/>
+                            <input class="online__input online__item" type="tel" name="online-tel" placeholder="Phone*"/>
                             <textarea class="online__textarea online__item" name="online-text" placeholder="Message"></textarea>
-                            <button class="online__button btn" type="submit">Send</button>
+                            <button class="online__btn btn" type="submit">Send</button>
                         </form>
                     </section>
-                    <!----- ----->
-                    <!----------CONTACTs---------->
-                    <section class="contact section">
-                        <h2 class="contact__title section-title">Contacts</h2>
-                        <address class="contact__address">
-                            <a class="contact__map-link link" target="_blank" rel="noopener noreferrer nofollow" href="https://goo.gl/maps/m49CoXVLUsWhngmK6">
-                                st. Vasilkivska, 7A<br/> Kyiv, 08132
+                    <!---------- ---------->
+                    <!----------CONTACTS---------->
+                    <section class="contacts section">
+                        <h2 class="contacts__title section-title">Contacts</h2>
+                        <address class="contacts__address">
+                            <a class="contacts__map-link link" href="https://goo.gl/maps/m49CoXVLUsWhngmK6" target="_blank" rel="noopener noreferrer nofollow">
+                                st. Vasilkivska, 7A<br/>Kyiv, 08132
                             </a>
-                            <ul class="contact__list list">
-                                <li class="contact__item">
-                                    <a class="contact__link link" href="tel:+380441111111">+38 044 111 11 11</a>
+                            <ul class="contacts__list list">
+                                <li class="contacts__item">
+                                    <a class="contacts__link link" href="tel:+380441111111">+38 044 111 11 11</a>
                                 </li>
                                 <li class="contacts__item">
-                                    <a class="contact__link link" href="mailto:barbershop@email.com">barbershop@email.com</a>
+                                    <a class="contacts__link" href="mailto:barbershop@email.com">barbershop@email.com</a>
                                 </li>
                             </ul>
                         </address>
-                        <p class="contact__subtitle">Working hours</p>
-                        <p class="contact__schedule">Every day from 9:00 to 22:00</p>
+                        <p class="contacts__subtitle">Working hours</p>
+                        <p class="contacts__schedule">Every day from 9:00 to 22:00</p>
                     </section>
-                    <!----- ----->
+                    <!---------- ---------->
                 </div>
             </div>
-            <!----- ----->
+            <!--------------- --------------->
         </main>
-        <!----- ----->
-        <!----------FOOTER---------->
+        <!--------------- --------------->
+        <!---------------FOOTER--------------->
         <footer class="footer">
             <div class="footer__container container">
-                <p class="footer__copy">&#169;Copyright 2020</p>
+                <p class="footer__copy">&#169;Copyright 2023</p>
                 <ul class="footer__list list">
                     <li class="footer__item">
-                        <a class="footer__link link" target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/">Instagram</a>
+                        <a class="footer__link link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer nofollow">Instagram</a>
                     </li>
                     <li class="footer__item">
-                        <a class="footer__link link" target="_blank" rel="noopener noreferrer nofollow" href="https://www.youtube.com/">Youtube</a>
+                        <a class="footer__link link" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer nofollow">Youtube</a>
                     </li>
                 </ul>
             </div>
         </footer>
-        <!----- ----->
-        <!----------MODAL_WINDOW---------->
+        <!--------------- --------------->
+        <!----------Modal---------->
         <div class="backdrop is-hidden" data-modal>
-            <div class="modal__wrapper">
-                <button class="modal__close" type="button" data-modal-close>
-                    <svg class="modal__close-icon" width="18" height="18">
-                        <use href="./icons/icons.svg#icon-close"/>
+            <div class="modal">
+                <button type="button" class="modal-close" data-modal-close>
+                    <svg class="modal-close-icon" width="18" height="18">
+                        <use href="./img/icons.svg#icon-close"></use>
                     </svg>
                 </button>
-                <p class="modal__title">Заголовок модального вікна</p>
-                <form class="modal__form">
-                    <div class="modal__field">
-                        <label class="modal__input-label" for="user-name">Введіть імя</label>
-                        <div class="modal__input-wrap">
-                            <input class="modal__input" name="user-name" type="text" required id="user-name" placeholder="Микола"/>
-                            <svg class="modal__input-icon" width="18" height="18">
-                                <use href="./icons/icons.svg#icon-person"/>
+                <p class="modal-title">Modal window</p>
+                <form class="modal-form">
+                    <div class="modal-field">
+                        <label class="input-label" for="user-name">Name</label>
+                        <div class="input-wrap">
+                            <input id="user-name" class="modal-input" type="text" name="user-name" title="Name" placeholder="Name" required/>
+                            <svg class="modal-input-icon" width="18" height="18">
+                                <use href="./img/icons.svg#icon-person"></use>
                             </svg>
                         </div>
-                    </div>
-                    <label class="modal__input-label"><span>Ваш телефон</span>
-                        <span class="modal__input-wrap">
-                            <input class="modal__input" name="user-tel" type="tel" title="+380 (96) 111-11-11" placeholder="+380 (96) 111-11-11" required/>
-                            <svg class="modal__input-icon" width="18" height="18">
-                                <use href="./icons/icons.svg#icon-person"/>
+                    </div>  
+                    <label class="input-label">
+                        <span>Phone</span>
+                        <span class="input-wrap">
+                            <input class="modal-input" type="tel" name="user-tel" title="Phone" placeholder="Phone" required/>
+                            <svg class="modal-input-icon" width="18" height="18">
+                                <use href="./img/icons.svg#icon-person"></use>
                             </svg>
                         </span>
                     </label>
-                    <input class="modal__input" name="user-email" type="email" placeholder="Введіть пошту"/>
-                    <div class="modal__field">
-                        <label class="modal__input-label" for="user-comment">Введіть імя</label>
-                        <textarea class="modal__text" name="user-comment" id="user-comment" placeholder="Комент"></textarea>
+                    <label class="input-label">
+                        <span>Email</span>
+                        <span class="input-wrap">
+                            <input class="modal-input" type="email" name="user-email" title="Email" placeholder="Email"/>
+                            <svg class="modal-input-icon" width="18" height="18">
+                                <use href="./img/icons.svg#icon-person"></use>
+                            </svg>
+                        </span>
+                    </label>
+                    <div class="modal-field">
+                        <label for="user-comment" class="input-label">Comment</label>
+                        <textarea id="user-comment" class="modal-text" name="user-comment" title="Comment" placeholder="Comment"></textarea>
                     </div>
-                    <div class="modal__field">
-                        <input class="modal__input-check visually-hidden" name="privacy" type="checkbox" id="privacy"/>
-                        <label class="modal__check-text" for="privacy">
+                    <div class="modal-field">
+                        <input id="privacy" class="input-check visually-hidden" type="checkbox" name="privacy"/>
+                        <label for="privacy" class="check-text">
                             <span>
-                                <svg class="modal__check-icon" width="16" height="15">
-                                    <use href="./icons/icons.svg#icon-che-1"/>
+                                <svg class="check-icon" width="16" height="15">
+                                    <use href="./img/icons.svg#icon-che-1"></use>
                                 </svg>
                             </span>
-                            політика приватності
+                            Privacy policy
                         </label>
                     </div>
                     <ul class="filter-list list">
                         <li class="filter-item">
-                            <input class="filter-check visually-hidden" name="filter" type="radio" id="all"/>
+                            <input id="all" class="filter-check visually-hidden" type="radio" name="filter"/>
                             <label class="filter-text" for="all">All</label>
                         </li>
                         <li class="filter-item">
-                            <input class="filter-check visually-hidden" name="filter" type="radio" id="aps"/>
+                            <input id="aps" class="filter-check visually-hidden" type="radio" name="filter"/>
                             <label class="filter-text" for="aps">Aps</label>
                         </li>
                         <li class="filter-item">
-                            <input class="filter-check visually-hidden" name="filter" type="radio" id="design"/>
+                            <input id="design" class="filter-check visually-hidden" type="radio" name="filter"/>
                             <label class="filter-text" for="design">Design</label>
                         </li>
                     </ul>
@@ -613,13 +579,12 @@
                 </form>
             </div>
         </div>
-        <!----- ----->
-        <!----------SCRIPTs---------->
+        <!---------- ---------->
+        <!----------Scripts---------->
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>AOS.init();</script>
         <script src="./js/modal.js"></script>
         <script src="./js/menu.js"></script>
-        <!----- ----->
+        <!---------- ---------->
     </body>
-    <!----- ----->
 </html>
